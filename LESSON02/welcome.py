@@ -1,7 +1,8 @@
 line01 = "********************"  # header/footer
 line02 = "*                  *"  # re-use
 line03 = "*     WELCOME!     *"
-line04 = "****"
+line04 = "1111"
+
 
 print('')
 print(line01)
