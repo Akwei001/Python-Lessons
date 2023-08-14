@@ -68,3 +68,11 @@ print(len(multiline))
 print(len(multiline.strip()))
 print(len(multiline.lstrip()))
 print(len(multiline.rstrip()))
+
+print("")
+
+# Build a menu
+
+title = "menu".upper()
+print(title.center(20, "="))
+print("Coffee".ljust(20, ".") + "$1.00".rjust(4))
