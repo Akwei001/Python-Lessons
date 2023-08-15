@@ -75,4 +75,15 @@ print("")
 
 title = "menu".upper()
 print(title.center(20, "="))
-print("Coffee".ljust(20, ".") + "$1.00".rjust(4))
+print("Coffee".ljust(16, ".") + "$1".rjust(4))
+print("Muffin".ljust(16, ".") + "$2".rjust(4))
+print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
+
+print("")
+
+# String index values
+
+print(first[1])
+print(first[-1]) # last value in a string
+print(first[1:-1]) # range
+print(first[1:]) 
