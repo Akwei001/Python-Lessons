@@ -87,3 +87,42 @@ print(first[1])
 print(first[-1]) # last value in a string
 print(first[1:-1]) # range
 print(first[1:]) 
+
+# Some methods return boolean data
+print(first.startswith('A'))
+print(first.endswith('Z'))
+
+# Boolean Data type
+myvalue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
+
+# Numeric Data Types
+
+
+# integer type
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+# float type
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
+# complex type
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+# Built-in functions for numbers
+print(abs(gpa))
+print(abs(gpa * -1))
+
+
+print(round(gpa))
+
+print(round(gpa, 1))
