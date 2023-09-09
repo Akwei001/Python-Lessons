@@ -20,3 +20,7 @@ print(band.keys())
 
 # list all values
 print(band.values())
+
+# verify a key exists
+print("guitar" in band)
+print("triangle" in band)
