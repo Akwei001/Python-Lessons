@@ -33,3 +33,7 @@ band["vocals"] = "Coverdale"
 band.update({"bass":"JPJ"})
 
 print(band)
+
+# Remove Items
+print(band.pop("bass"))
+print(band)
