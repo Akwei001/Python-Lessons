@@ -34,6 +34,23 @@ band.update({"bass":"JPJ"})
 
 print(band)
 
-# Remove Items
+# Remove items
 print(band.pop("bass"))
 print(band)
+
+band["drums"] = "Bonham"
+print(band)
+
+print(band.popitem())  # tuple
+print(band)
+
+# Delete and clear
+
+band["drums"] = "Bonham"
+del band["drums"]
+print(band)
+
+band2.clear()
+print(band2)
+
+del band2
